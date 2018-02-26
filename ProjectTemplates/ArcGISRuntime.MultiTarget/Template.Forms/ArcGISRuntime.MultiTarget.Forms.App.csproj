@@ -152,8 +152,8 @@
     <None Include="iOS\Info.plist" />
     <None Include="iOS\iOS.csproj" />
     <None Include="iOS\iOS.vstemplate" />
-    <None Include="PreviewImage.PNG" />
-    <None Include="MultiTarget\MultiTarget.vstemplate" />
+    <None Include="PreviewImage.png" />
+    <None Include="MultiTarget\ArcGISRuntime.MultiTarget.Forms.Library.vstemplate.vstemplate" />
     <None Include="TemplateIcon.ico" />
   </ItemGroup>
   <ItemGroup>

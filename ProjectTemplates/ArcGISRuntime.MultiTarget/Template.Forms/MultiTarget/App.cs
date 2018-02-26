@@ -15,12 +15,12 @@ using Esri.ArcGISRuntime.Symbology;
 using Esri.ArcGISRuntime.Tasks;
 using Esri.ArcGISRuntime.UI;
 
-namespace $ext_safeprojectname$
+namespace $safeprojectname$
 {
-	public class App : Xamarin.Forms.Application
-	{
-		public App ()
-		{
+    public class App : Xamarin.Forms.Application
+    {
+        public App ()
+        {
             // Deployed applications must be licensed at the Lite level or greater. 
             // See https://developers.arcgis.com/licensing for further details.
 
@@ -29,6 +29,6 @@ namespace $ext_safeprojectname$
 
             // The root page of your application
             MainPage = new MapPage();
-		}
-	}
+        }
+    }
 }

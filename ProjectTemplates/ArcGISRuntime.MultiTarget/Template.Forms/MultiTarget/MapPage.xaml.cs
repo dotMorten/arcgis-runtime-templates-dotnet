@@ -1,8 +1,8 @@
 ﻿using Xamarin.Forms;
 
-namespace $ext_safeprojectname$
+namespace $safeprojectname$
 {
-	public partial class MapPage : ContentPage
+    public partial class MapPage : ContentPage
     {
         public MapPage()
         {

@@ -5,6 +5,8 @@
         <DisplayName>ArcGIS Runtime .NET MultiTargeting template</DisplayName>
         <Description xml:space="preserve">Adds a MultiTargeting project template for the ArcGIS Runtime to be used with WPF, UWP, Xamarin.iOS and Xamarin.Android.</Description>
         <MoreInfo>http://links.esri.com/runtime-dotnet-sdk</MoreInfo>
+        <Icon>ArcGISRuntimeDotNetSDK_32x32.png</Icon>
+        <PreviewImage>ArcGISRuntimeDotNetSDK_200x200.png</PreviewImage>
         <Tags>Multi Target, NArcGIS, Runtime, ArcGIS Runtime, Map, Mapping, Maps, GIS, WPF, UWP, iOS, Android, Xamarin, Xamarin Forms, XAML</Tags>
     </Metadata>
     <Installation>
@@ -16,7 +18,10 @@
         <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
     </Dependencies>
     <Assets>
-        <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="File" Path="ProjectTemplates" d:TargetPath="ProjectTemplates\CSharp\1033\ArcGISRuntime.MultiTarget.App.zip" />
+        <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="File" Path="ProjectTemplates" d:TargetPath="ProjectTemplates\CSharp\Cross-Platform\1033\ArcGISRuntime.MultiTarget.App.zip" />
+        <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="File" Path="ProjectTemplates" d:TargetPath="ProjectTemplates\CSharp\Cross-Platform\1033\ArcGISRuntime.MultiTarget.Library.zip" />
+        <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="File" Path="ProjectTemplates" d:TargetPath="ProjectTemplates\CSharp\Cross-Platform\1033\ArcGISRuntime.MultiTarget.Forms.App.zip" />
+        <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="File" Path="ProjectTemplates" d:TargetPath="ProjectTemplates\CSharp\Cross-Platform\1033\ArcGISRuntime.MultiTarget.Forms.Library.zip" />
     </Assets>
     <Prerequisites>
         <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[15.0,16.0)" DisplayName="Visual Studio core editor" />

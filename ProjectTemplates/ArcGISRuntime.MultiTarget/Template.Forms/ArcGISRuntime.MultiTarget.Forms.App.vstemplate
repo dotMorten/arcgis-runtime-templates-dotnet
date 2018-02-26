@@ -19,7 +19,7 @@
     <TemplateContent>
     <ProjectCollection>
         <ProjectTemplateLink ProjectName="$safeprojectname$" CopyParameters="true">
-        MultiTarget\MultiTarget.vstemplate
+        MultiTarget\ArcGISRuntime.MultiTarget.Forms.Library.vstemplate
         </ProjectTemplateLink>
         <ProjectTemplateLink ProjectName="$safeprojectname$.iOS" CopyParameters="true">
         iOS\iOS.vstemplate

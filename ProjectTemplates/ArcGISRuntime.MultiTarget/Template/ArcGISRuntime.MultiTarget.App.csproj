@@ -103,6 +103,7 @@
     <Content Include="Android\Android.vstemplate">
       <SubType>Designer</SubType>
     </Content>
+    <None Include="MultiTarget\ArcGISRuntime.MultiTarget.Library.vstemplate" />
     <None Include="Android\Resources\layout\main.xml" />
     <None Include="Android\Resources\Drawable\icon-hd.png" />
     <None Include="WPF\WPF.csproj" />
@@ -145,9 +146,10 @@
     <None Include="iOS\Entitlements.plist" />
     <None Include="iOS\Info.plist" />
     <None Include="iOS\iOS.csproj" />
-    <None Include="iOS\iOS.vstemplate" />
+    <None Include="iOS\iOS.vstemplate">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="PreviewImage.PNG" />
-    <None Include="MultiTarget\MultiTarget.vstemplate" />
     <None Include="TemplateIcon.ico" />
   </ItemGroup>
   <ItemGroup>

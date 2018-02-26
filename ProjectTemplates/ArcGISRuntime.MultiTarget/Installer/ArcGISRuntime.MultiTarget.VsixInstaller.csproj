@@ -49,7 +49,22 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="..\Template\bin\ProjectTemplates\CSharp\1033\ArcGISRuntime.MultiTarget.App.zip">
-      <Link>ProjectTemplates\CSharp\1033\ArcGISRuntime.MultiTarget.App.zip</Link>
+      <Link>ProjectTemplates\CSharp\Cross-Platform\1033\ArcGISRuntime.MultiTarget.App.zip</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="..\Template\MultiTarget\bin\ProjectTemplates\CSharp\1033\ArcGISRuntime.MultiTarget.Library.zip">
+      <Link>ProjectTemplates\CSharp\Cross-Platform\1033\ArcGISRuntime.MultiTarget.Library.zip</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="..\Template.Forms\bin\ProjectTemplates\CSharp\1033\ArcGISRuntime.MultiTarget.Forms.App.zip">
+      <Link>ProjectTemplates\CSharp\Cross-Platform\1033\ArcGISRuntime.MultiTarget.Forms.App.zip</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="..\Template.Forms\MultiTarget\bin\ProjectTemplates\CSharp\1033\ArcGISRuntime.MultiTarget.Forms.Library.zip">
+      <Link>ProjectTemplates\CSharp\Cross-Platform\1033\ArcGISRuntime.MultiTarget.Forms.Library.zip</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
@@ -58,6 +73,12 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ArcGISRuntimeDotNetSDK_200x200.png">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="ArcGISRuntimeDotNetSDK_32x32.png">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
     <Content Include="stylesheet.css" />
   </ItemGroup>
   <ItemGroup />
