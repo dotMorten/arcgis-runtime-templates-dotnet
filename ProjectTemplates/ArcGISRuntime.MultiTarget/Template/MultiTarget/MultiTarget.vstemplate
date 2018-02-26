@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>ArcGISRuntimeApp.MultiTarget</Name>
+    <ProjectType>CSharp</ProjectType>
+    <SortOrder>1000</SortOrder>
+    <CreateInPlace>true</CreateInPlace>
+    <CreateNewFolder>true</CreateNewFolder>
+    <LocationField>Enabled</LocationField>
+    <Hidden>true</Hidden>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="$ext_safeprojectname$.csproj" File="MultiTarget.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="MapViewModel.cs">MapViewModel.cs</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
