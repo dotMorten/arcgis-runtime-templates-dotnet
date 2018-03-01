@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <VSTemplate Version="3.0.0" Type="ProjectGroup" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
     <TemplateData>
-        <Name>ArcGIS Runtime App - Multi Targeting Xamarin.Forms project</Name>
+        <Name>ArcGIS Runtime App (Xamarin.Forms)</Name>
         <Description>An ArcGIS Runtime SDK for .NET project for creating a multi-target project for Android, iOS, WPF and UWP with ArcGIS Runtime functionality.</Description>
         <Icon>TemplateIcon.ico</Icon>
         <TemplateID>Esri.CS.MultiTarget.Forms.MapApplication</TemplateID>
@@ -19,7 +19,7 @@
     <TemplateContent>
     <ProjectCollection>
         <ProjectTemplateLink ProjectName="$safeprojectname$" CopyParameters="true">
-        MultiTarget\ArcGISRuntime.MultiTarget.Forms.Library.vstemplate
+        MultiTarget\ArcGISRuntime.MultiTarget.Forms.App.vstemplate
         </ProjectTemplateLink>
         <ProjectTemplateLink ProjectName="$safeprojectname$.iOS" CopyParameters="true">
         iOS\iOS.vstemplate

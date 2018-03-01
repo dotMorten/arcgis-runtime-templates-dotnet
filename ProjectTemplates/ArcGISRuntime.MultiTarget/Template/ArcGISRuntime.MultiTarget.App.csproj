@@ -103,7 +103,7 @@
     <Content Include="Android\Android.vstemplate">
       <SubType>Designer</SubType>
     </Content>
-    <None Include="MultiTarget\ArcGISRuntime.MultiTarget.Library.vstemplate" />
+    <None Include="MultiTarget\ArcGISRuntime.MultiTarget.App.vstemplate" />
     <None Include="Android\Resources\layout\main.xml" />
     <None Include="Android\Resources\Drawable\icon-hd.png" />
     <None Include="WPF\WPF.csproj" />
